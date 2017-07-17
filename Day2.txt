@@ -1,0 +1,12 @@
+1)String and text handling
+	-Strings are immutable;
+	-verbatim Strings start with '@'
+	-Strings interning: String.Intern(), String.IsInterned;
+	-StringBuilder properties: MaximumCapacity (usually equals MaxInt), Capacity, CharacterArray;
+	-StringBuilder creates new objects: when adding new  symbols (if new length greater then capacity), after calling ToString method;
+2) Delegates
+	-all delegates inherited from System.MulticastDelegate, whitch inherits System.Delegate;
+	-Combine() and Remove() are members of System.Delegate;
+	-delegate's properties: Target, Method, InvocationList;
+	-Target equals null for static methods;
+	-Remove() removes one matching delegate per call;
