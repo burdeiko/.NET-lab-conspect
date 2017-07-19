@@ -1,0 +1,9 @@
+Generics
+	-generics benefits: type safety, code simplisity, better performance;
+	-generics: classes, delegates, methods, interfaces;
+	-one method for reference types, different for values;
+	-constraints
+LINQ
+	-LINQ to Objects, LINQ to Entities, LINQ to SQL etc;
+	-delayed execution;
+	-query syntax and method syntax;
